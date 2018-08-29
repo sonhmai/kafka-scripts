@@ -23,12 +23,3 @@ curl --include \
 }
 ]" \
 "https://api.powerbi.com/beta/658d257f-4608-4ae9-85f3-61f7e4628c97/datasets/1bac7bd2-0f8c-42e0-9acc-6324a51c8cd5/rows?key=dngGqq2hUzDXqiUcnoRm3j3MeeUOhJ8G0Q0z%2FH6XEsb2XszxG4kU%2FWjp1xwmrESGXtcrcAA%2FniGlkNRC5Go%2BZQ%3D%3D"
-
-
-
-
-
-
-
-
-
