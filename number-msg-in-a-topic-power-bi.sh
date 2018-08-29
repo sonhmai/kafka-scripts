@@ -9,7 +9,7 @@ cd /opt/kafka_2.11-0.11.0.0
 echo "-------------------"
 echo
 total=$(bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list $kafka02:$BROKERPORT --topic $TOPIC --time -1 --offsets 1 | awk -F ":" '{sum += $3} END {print sum}')
-timestamp=$(date --iso-8601=seconds)
+timestamp=$(date  "+%Y-%m-%dT%H:%M:%S")
 echo total message = $total
 
 curl --include \
