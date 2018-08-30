@@ -6,4 +6,3 @@ ZKPORT=2181
 CDIR=$(pwd)
 cd /opt/kafka_2.11-0.11.0.0
 bin/kafka-topics.sh --zookeeper $kafka02:$ZKPORT --list
-bin/kafka-consumer-groups.sh --bootstrap-server $kafka02:$BROKERPORT --list
