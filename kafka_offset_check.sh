@@ -15,5 +15,3 @@ bin/kafka-consumer-groups.sh --zookeeper $kafka02:$ZKPORT --list
 #echo "-------list topics------"
 #echo
 #bin/kafka-topics.sh --describe --zookeeper $kafka02:$ZKPORT
-
-bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group count_errors --describe
